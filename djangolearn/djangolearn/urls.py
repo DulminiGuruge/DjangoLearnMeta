@@ -21,7 +21,8 @@ from django.urls import include, path
 from demoapp import views
 
 urlpatterns = [ 
-    path('', include('demoapp.urls')), 
+    path('', include('demoapp.urls')),
+    path('forms/', include('createforms.urls')),  
     path('admin/', admin.site.urls), 
     path('', views.index, name="Home"), 
 ] 
