@@ -67,3 +67,11 @@ This command option of manage.py synchronizes the database state with the curren
 
 >python manage.py migrate
 
+
+### Create Forms in Django
+
+Create forms.py in app level and add the form fields.
+
+### Creating Model Forms
+
+View the modelforms app in the code.

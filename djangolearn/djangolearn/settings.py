@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'createModels',
     'modelsmigrations',
     'foreignkeys',
+    'createforms',
 ]
 
 MIDDLEWARE = [
