@@ -74,4 +74,5 @@ Create forms.py in app level and add the form fields. Then update the views.py a
 
 ### Creating Model Forms
 
-View the modelforms app in the code.
+View the modelforms app in the code. First add the model in models.py. Then import the model in forms.py and lastly update the admin.py. 
+Then you have to add the url for the form using urls.py in app level and the project level.

@@ -22,6 +22,7 @@ from demoapp import views
 
 urlpatterns = [ 
     path('', include('demoapp.urls')),
+    path('modelforms/',include('modelforms.urls')),
     path('forms/', include('createforms.urls')),  
     path('admin/', admin.site.urls), 
     path('', views.index, name="Home"), 
